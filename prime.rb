@@ -8,5 +8,3 @@ def prime?(number)
     number % num == 0
   end
 end
-
-puts prime?(2)
