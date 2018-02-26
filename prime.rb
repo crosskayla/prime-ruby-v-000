@@ -4,6 +4,7 @@ def prime?(number)
   range = (1..100).to_a
   range.none? do |num|
     next if num == number
+    puts number % num 
     number % num == 0
   end
 end
