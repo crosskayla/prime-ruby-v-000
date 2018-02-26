@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(number)
-  (1..100).to_a
-  if number %
+  range = (2..100).to_a
+  range.any {|num| number % num == 0}
 end
 
 prime?(1)
