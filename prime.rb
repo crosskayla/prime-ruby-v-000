@@ -4,4 +4,4 @@ def prime?(number)
   range.any?{|num| number % num == 0}
 end
 
-prime?(1)
+puts 
