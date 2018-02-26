@@ -5,7 +5,6 @@ def prime?(number)
   range.none? do |num|
     break if num == number
     number % num == 0
-    end
   end
 end
 
